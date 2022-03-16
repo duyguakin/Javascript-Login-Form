@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(Abstract-Black-Background-PC-Wallpaper-34046.jpg);
+  
+}
+.box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(49, 49, 49, 0.4);
+    text-align: center;
+    border-radius: 30px;
+}
+
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box input[type="text"],.box input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #4d6d59ec;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition:0.25px;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width:220px;
+    border-color:#1c9c4dec;
+}
+
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #775d08ec;
+    padding: 14px 35px;
+    width: 120px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition:0.25px;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover{
+    background: #ffc400ec;
+}
